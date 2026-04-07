@@ -213,3 +213,6 @@ __marimo__/
 *.gif
 *.csv
 *.joblib
+
+#.conda folder and contents
+.conda/

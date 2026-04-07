@@ -49,7 +49,7 @@ def make_gif_from_tifs(
 
     frames = []
 
-    for tif in tqdm(tif_files, desc="Building GIF", unit="frame"):
+    for tif in tqdm(tif_files, desc="Building GIF", unit="frame"): #tqdm for progress bar
         img = tif_to_rgb_array(tif, scale_max=scale_max)
 
         h, w = img.shape[:2]
